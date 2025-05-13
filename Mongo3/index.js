@@ -21,7 +21,7 @@ main().then(()=>
 
 async function main()
 {
-    await mongoose.connect("mongodb://Vignayreddy:Vinnu2006@127.0.0.1:27017/fakewhatsapp?authSource=admin");
+    await mongoose.connect("mongodb://Vignayreddy:password@127.0.0.1:27017/fakewhatsapp?authSource=admin");
 }
 
 
