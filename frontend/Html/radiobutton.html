@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio-Button</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+        <input type="radio" id="apple" name="fruit" value="apple">
+        <label for="apple">apple</label>
+        <br>
+        <input type="radio" id="mango" name="fruit" value="mango">
+        <label for="mango">mango</label>
+        <br>
+        <input type="radio" id="banana" name="fruit" value="banana">
+        <label for="banana">banana</label>
+        <br>
+        <input type="radio" id="Pineapple" name="fruit" value="Pineapple">
+        <label for="Pineapple">Pineapple</label>
+
+        </div>
+       <br>
+       <div>
+        Choose your Subjects:
+        <br>
+        <input type="checkbox" id="math" name="subjects" value="math"/>
+        <label for="math">I love math</label>
+        <br>
+        <input type="checkbox" id="science" name="subjects" value="science"/>
+        <label for="science">I love science</label>
+        <br>
+        <input type="checkbox" id="evs" name="subjects" value="evs"/>
+        <label for="evs">I love evs</label>
+       </div>
+       <br>
+       <br>
+       <div>
+        Choose Your Profession
+        <select name="profession" id="profession">
+            <option>Select Your Option </option>
+            <option value="stu">Student</option>
+            <option value="dev">Developer</option>
+            <option value="work" selected>Working</option>
+        </select>
+       </div>
+       <div>
+        <label for="vol">Select Your Volume Level</label>
+        <input type="range" min="0" max="100" id="vol" name="vol" step="10">
+
+        <br>
+        <label for="feedback">Please Give Your Valuable Feedback</label>
+        <textarea id="feedback" name="feedback" rows="5" cols="10" placeholder="Enter something"></textarea>
+
+
+
+
+
+       </div>
+      <button>Submit</button>
+    </form>
+    
+</body>
+</html>

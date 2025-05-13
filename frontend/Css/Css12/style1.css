@@ -1,0 +1,28 @@
+h1
+{
+    text-align: center;
+    border:solid;
+    width:50%;
+
+}
+
+h3
+{
+    text-align:center;
+}
+
+
+p
+{
+    text-align: justify;
+    font-weight:lighter;
+    text-decoration: wavy  green underline;
+    line-height: 2.5;
+    letter-spacing:1px;
+    font-size:15px;
+    font-family: system-ui;
+}
+
+
+
+

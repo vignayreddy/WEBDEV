@@ -1,0 +1,33 @@
+/* p
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    opacity: 0.45;
+} */
+div{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top:10px;
+    box-shadow: 2px 2px 8px yellow;
+    background-image: url("ironman.jpg") ;
+    background-size: contain;
+    /* transition: margin-top 2s ease-in 0.2s; */
+    
+}
+
+
+
+div:hover
+
+{
+    margin-top: 400px;
+    background-color: pink;
+    transform: rotate(45deg);
+    /* transform: translate(100px,100px); */
+transform: skew(30deg);
+
+
+}

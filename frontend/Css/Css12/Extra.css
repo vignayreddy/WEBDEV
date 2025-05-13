@@ -1,0 +1,32 @@
+/* <!--Adjacent Sibling Contributor--> */
+/* p + h3{
+    background-color: red;
+} */
+/* Checks for h3 only after immediate appearance of p */
+p::content{
+    background-color: brown !important;
+}
+button:hover{
+    background-color:red;
+}
+
+button:active{
+    background-color:green;
+}
+
+button:checked{
+    background-color:blue;
+}
+div:nth-of-type(2)
+{
+    background-color: cadetblue;
+}
+h3::first-letter
+{
+   color:red;
+}
+/* !importance */
+
+input{
+    background-color: black;
+}
