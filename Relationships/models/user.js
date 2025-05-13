@@ -7,7 +7,7 @@ main()
 .catch((err)=>console.log(err))
 
 async function main() {
-await mongoose.connect("mongodb://Vignayreddy:Vinnu2006@127.0.0.1:27017/relationDemo?authSource=admin")
+await mongoose.connect("mongodb://Vignayreddy:Password@127.0.0.1:27017/relationDemo?authSource=admin")
 
 }
 
